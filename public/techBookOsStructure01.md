@@ -1,11 +1,11 @@
 ---
-title: '読書メモ「[作って学ぶ]OSのしくみⅠ」'
+title: '読書メモ [作って学ぶ]OSのしくみⅠ'
 tags:
   - Book
   - Rust
   - OS
 private: false
-updated_at: '2025-07-30T08:00:31+09:00'
+updated_at: '2025-07-30T08:04:32+09:00'
 id: 89cf824705313f587197
 organization_url_name: null
 slide: false
@@ -44,9 +44,9 @@ cargo build --target x86_64-unknown-uefi
 |rust/library/std/src/macros.rs|`println`||
 |rust/library/std/src/io/mod.rs|`pub use self::stdio::{_eprint, _print};`||
 |rust/library/std/src/io/stdio.rs|`_print`||
-||`print_to`||
-||`stdout`|stdout_rawのインスタンスを1つだけに制限
-||`stdout_raw`||
+|同上|`print_to`||
+|同上|`stdout`|stdout_rawのインスタンスを1つだけに制限
+|同上|`stdout_raw`||
 |rust/library/std/src/sys/mod.rs|`pub use pal::*;`|再エクスポート|
 |rust/library/std/src/sys/pal/mod.rs|`cfg_if::cfg_if! {`|各プラットフォームへの分岐|
 |rust/library/std/src/sys/pal/unix/stdio.rs|`impl Stdin {`|unix環境の定義|
@@ -75,7 +75,7 @@ fn panic(_info: &PanicInfo) -> ! {
 
 
 # 3章
-`unimplemented!("読み進め次第、書いていきます。")`
+`unimplemented!("読み進め次第、書いていく。")`
 
 
 
