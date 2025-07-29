@@ -44,9 +44,9 @@ cargo build --target x86_64-unknown-uefi
 |rust/library/std/src/macros.rs|`println`||
 |rust/library/std/src/io/mod.rs|`pub use self::stdio::{_eprint, _print};`||
 |rust/library/std/src/io/stdio.rs|`_print`||
-||`print_to`||
-||`stdout`|stdout_rawのインスタンスを1つだけに制限
-||`stdout_raw`||
+|同上|`print_to`||
+|同上|`stdout`|stdout_rawのインスタンスを1つだけに制限
+|同上|`stdout_raw`||
 |rust/library/std/src/sys/mod.rs|`pub use pal::*;`|再エクスポート|
 |rust/library/std/src/sys/pal/mod.rs|`cfg_if::cfg_if! {`|各プラットフォームへの分岐|
 |rust/library/std/src/sys/pal/unix/stdio.rs|`impl Stdin {`|unix環境の定義|

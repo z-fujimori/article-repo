@@ -5,7 +5,7 @@ tags:
   - Rust
   - OS
 private: false
-updated_at: '2025-07-30T07:57:42+09:00'
+updated_at: '2025-07-30T08:00:31+09:00'
 id: 89cf824705313f587197
 organization_url_name: null
 slide: false
