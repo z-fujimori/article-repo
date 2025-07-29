@@ -4,9 +4,9 @@ tags:
   - Book
   - Rust
   - OS
-private: true
-updated_at: '2025-07-10T21:48:33+09:00'
-id: bf615aa3fe4764a6be7e
+private: false
+updated_at: '2025-07-30T07:57:42+09:00'
+id: 89cf824705313f587197
 organization_url_name: null
 slide: false
 ignorePublish: false
@@ -75,5 +75,7 @@ fn panic(_info: &PanicInfo) -> ! {
 
 
 # 3章
-`unimplemented!("読み進め次第、書いていく。")`
+`unimplemented!("読み進め次第、書いていきます。")`
+
+
 
